@@ -1,0 +1,37 @@
+@import "../../variables";
+
+.trust--stamp--hero--tunez {
+  height: 85vh;
+
+  background: url("../../images/hero-2.jpg"), $primary-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 6rem;
+  padding-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: $white-color;
+  position: relative;
+
+  h1 {
+    font-size: 3rem;
+    margin: 0.3rem 0;
+  }
+
+  .hero--bottom {
+    background: red;
+    background: url("../../images/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 30vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}

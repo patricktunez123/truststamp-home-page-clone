@@ -1,0 +1,20 @@
+.trust--stamp--what-we-do--tunez {
+  height: 100vh;
+  padding: 0 6rem;
+
+  .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left {
+      flex-basis: 1;
+    }
+    .right {
+      flex-basis: 2;
+      img {
+        width: 352px;
+        height: 291.31px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../variables";
+
+.trust--stamp--nav--tunez {
+  background: $white-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  padding: 0 6rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  img {
+    width: 136px;
+    height: 28px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $dark-color;
+        font-weight: 700;
+      }
+    }
+  }
+}
